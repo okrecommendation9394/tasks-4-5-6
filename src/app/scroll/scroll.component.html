@@ -1,0 +1,4 @@
+<div class="users-container" #container>
+  <div *ngFor="let item of itemsToShow" class="user">{{ item.name }}</div>
+  <div *ngIf="loading" class="loading">...Loading</div>
+</div>
